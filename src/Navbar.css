@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-logo {
+  height: 50px; /* Adjust the size of the logo */
+  width: auto;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold; /* Add bold styling for the links */
+  transition: color 0.2s ease; /* Smooth hover effect */
+}
+
+.navbar-links p:hover {
+  color: #3897f0; /* Instagram blue color on hover */
+  text-decoration: underline; /* Optional underline on hover */
+}
